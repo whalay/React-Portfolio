@@ -1,0 +1,98 @@
+.footer{
+    display: flex;
+    height: 405px;
+    overflow: hidden;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-around;
+}
+
+.footer .lamp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lamp img{
+    width: 100px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+.lamp  button{
+    background-color: #f39c12;
+     width: 150px;
+      height: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+     border-radius: 10px;
+      border: 2px solid #f39c12;
+       cursor:pointer;
+        position: relative;
+     padding-left: 25px;
+   
+     
+    
+}
+.lamp button .icon{
+    font-size: 15px; 
+    position: absolute; 
+    top: 5px;
+    left: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #0e0d0d;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+.form h3{
+    padding-bottom: 1px;
+}
+
+.form label{
+    padding:6px 0;
+}
+
+.form input{
+    padding:6px 0;
+    border: 2px solid #f39c12;
+    border-radius: 5px;
+}
+
+.form textarea{
+    margin-top:20px;
+    border: 2px solid #f39c12;
+    border-radius: 5px;
+}
+.form button{
+    background-color: #f39c12;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 2px solid #f39c12;
+    cursor:pointer;
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        padding:  20px 20px;
+        justify-content: space-between;
+     height: 600px;
+    }
+}

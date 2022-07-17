@@ -1,0 +1,259 @@
+header{
+    background-color: #f39c12; height:900px;
+    width:100%
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-right:35px;
+    padding-left: 35px;
+    height:200px;
+    background-color: #f39c12;
+    
+               
+}
+header .ham{display: none;}
+
+nav .link { 
+    width: 200px;
+    display: flex;
+    justify-content: start;
+     gap: 30px;
+     
+}
+header .logo{
+    width:250px;
+     position: absolute; 
+     top: 30px; 
+     left: 40%
+}
+nav .link h4{cursor: pointer;
+padding-top: 10px;}
+nav .link h4:hover{opacity: .6;}
+nav .link-button{
+    display: flex; gap: 15px;
+    width:300px;
+    justify-content: end;
+    align-items:top;
+    
+    
+}
+nav .link-button .login {
+    background-color:  #c0392b;
+     color: white; 
+     height: 50px;
+     width: 80px;
+    border-radius: 6px;
+    border:none;
+     cursor:pointer;
+    font-size: 16px;
+    font-weight: bold 
+}
+nav .link-button .login:hover{
+    opacity:.85
+
+}
+nav .link-button .sign-up{
+    background-color: #000;
+    color: white;
+    height: 50px;
+    width: 80px;
+    border-radius: 6px;
+     border:none;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: bold
+}
+nav .link-button .sign-up:hover{
+    opacity: 0.85
+}
+.pictures {
+    height: 400px;
+    position: relative
+}
+.pictures .couch{
+    width:90%;
+     position:absolute;
+     top: 100px;
+      left: 5%
+}
+
+.download{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    height:300px; 
+    background-color: white
+}
+.download button{
+    background-color: #f39c12;
+     width: 200px;
+      height: 40px;
+    border: none;
+    font-weight: bold;
+     border-radius: 10px;
+      border: 2px solid #f39c12;
+       cursor:pointer;
+        position: relative;
+     padding-left: 25px} 
+
+.download button:hover{background-color:  #c0392b;
+color: white;
+border: 2px solid #c0392b;}
+
+.app-center{
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin-top: -390px;
+}
+.app-center .app{position: relative;
+z-index: 3;
+width: 250px;}
+
+
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    height: 850px;}
+    header .logo{
+        width:220px;
+         position: absolute; 
+         top: 10px; 
+         left: 10px;
+         
+    }
+    nav .ham{display: none}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top:80px;
+        padding-right:10px;
+        padding-left: 30px;
+        height:150px;
+        background-color: #f0932b; 
+        
+                  
+    }
+    nav .link h4{cursor: pointer;
+padding-top: 15px;}
+
+.pictures .couch{
+    width:90%;
+     position:absolute;
+     top: 250px;
+      left: 5%;
+      
+}
+.pictures .app{
+    width:250px; position:absolute; top: 0px; left: 32.5%
+}
+.download{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    height:300px; 
+    background-color: white
+}
+.app-center{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -400px;
+    }
+    .app-center .app{position: relative;
+    z-index: 3;
+    width: 250px;}
+    
+
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+    height: 700px;}
+    header .logo{
+        width:140px;
+         position: absolute; 
+         top: 15px; 
+         left: 15px
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top:80px;
+        padding-right:10px;
+        padding-left: 20px;
+        height:150px;
+        background-color: #f39c12; 
+        
+        
+                  
+    }
+    nav .link h4{cursor: pointer;
+padding-top: 15px;
+display: none;}
+
+nav .link-button{
+    display: flex; gap: 15px;
+    display: none;
+}
+
+.pictures .couch{
+    width:90%;
+     position:absolute;
+     top: 230px;
+      left: 5%;
+      
+}
+header .ham{position: absolute;
+                top:10px; right:15px;
+            display: block;
+        font-size: 40px;
+    cursor: pointer;}
+nav .ham:hover{
+    font-size: 42px;
+}
+.pictures {
+    height: 300px;
+    position: relative
+}
+.pictures .app{
+    width:200px; 
+    position:absolute;
+     top: -50px;
+      left: 26%
+}
+
+.download{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    height:200px; 
+    background-color: white;
+    
+}
+
+.app-center{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -350px;
+    }
+    .app-center .app{position: relative;
+    z-index: 3;
+    width: 220px;}
+    
+
+    
+    
+}
+
+
