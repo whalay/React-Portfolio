@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9aa378c.chunk.css",
+    "main.js": "/static/js/main.f693b85c.chunk.js",
+    "main.js.map": "/static/js/main.f693b85c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a89797e1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a89797e1.js.map",
+    "static/js/2.15e9c9d7.chunk.js": "/static/js/2.15e9c9d7.chunk.js",
+    "static/js/2.15e9c9d7.chunk.js.map": "/static/js/2.15e9c9d7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a9aa378c.chunk.css.map": "/static/css/main.a9aa378c.chunk.css.map",
+    "static/js/2.15e9c9d7.chunk.js.LICENSE.txt": "/static/js/2.15e9c9d7.chunk.js.LICENSE.txt",
+    "static/media/app.45288807.svg": "/static/media/app.45288807.svg",
+    "static/media/cisco.f056a09c.svg": "/static/media/cisco.f056a09c.svg",
+    "static/media/couch.cb4ec776.png": "/static/media/couch.cb4ec776.png",
+    "static/media/deezer.fd49aecd.svg": "/static/media/deezer.fd49aecd.svg",
+    "static/media/dell.b23bd1a5.svg": "/static/media/dell.b23bd1a5.svg",
+    "static/media/disney.7dc25886.svg": "/static/media/disney.7dc25886.svg",
+    "static/media/dots.56a41645.svg": "/static/media/dots.56a41645.svg",
+    "static/media/logo.f960af0a.svg": "/static/media/logo.f960af0a.svg",
+    "static/media/spotify.2c7ee246.svg": "/static/media/spotify.2c7ee246.svg",
+    "static/media/table.4bf6a601.png": "/static/media/table.4bf6a601.png",
+    "static/media/texas.3dd46ac9.svg": "/static/media/texas.3dd46ac9.svg",
+    "static/media/verizon.819a402c.svg": "/static/media/verizon.819a402c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a89797e1.js",
+    "static/js/2.15e9c9d7.chunk.js",
+    "static/css/main.a9aa378c.chunk.css",
+    "static/js/main.f693b85c.chunk.js"
+  ]
+}

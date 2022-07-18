@@ -1,5 +1,5 @@
 import classes from './Section.module.css';
-import { Icon } from '@iconify/react';
+
 
 import spotify from '../asset/images/spotify.svg'
 import dell from '../asset/images/dell.svg'

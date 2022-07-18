@@ -18,7 +18,7 @@ header .ham{display: none;}
 nav .link { 
     width: 200px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
      gap: 30px;
      
 }
@@ -34,7 +34,7 @@ nav .link h4:hover{opacity: .6;}
 nav .link-button{
     display: flex; gap: 15px;
     width:300px;
-    justify-content: end;
+    justify-content: flex-end;
     align-items:top;
     
     
